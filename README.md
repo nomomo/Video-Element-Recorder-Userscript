@@ -35,8 +35,7 @@ The script is intended to work on a variety of platforms, such as:
 - `https://chzzk.naver.com/*`
 - `https://*.hakuna.live/*`
 - `https://*.youtube.com/*`
-- `https://tv.naver.com/*`
-- `https://*.facebook.com/*`
+- `https://*.afreecatv.com/*`
 
 Refer to the script's `@match` sections for a comprehensive list.
 
