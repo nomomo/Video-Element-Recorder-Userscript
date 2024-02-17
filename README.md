@@ -40,7 +40,7 @@ The script is intended to work on a variety of platforms, such as:
 Refer to the script's `@match` sections for a comprehensive list.
 
 ## Known issues
-A video with a long recording time was not playing properly. If you use ffmpeg to convert the video as shown below, the problem can be solved. This was written by a human😅.
+An issue where videos recorded on certain platforms or long-recorded videos do not play properly. If you use ffmpeg to convert the video as shown below, the problem can be solved. This was written by a human😅.
 
 ```bat
 ffmpeg -y -i %inputFileName%.webm -analyzeduration 2147483647 -probesize 2147483647 -c:v copy -c:a copy -start_at_zero -copyts %outputFileName%.mp4
