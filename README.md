@@ -49,7 +49,7 @@ ffmpeg -y -i %inputFileName%.webm -analyzeduration 2147483647 -probesize 2147483
 or
 
 ```bat
-ffmpeg -y -i %inputFileName%.webm -analyzeduration 2147483647 -probesize 2147483647 -start_at_zero -copyts %outputFileName%.mp4
+ffmpeg -y -i %inputFileName%.webm -analyzeduration 2147483647 -probesize 2147483647 -c:v copy -start_at_zero -copyts %outputFileName%.mp4
 ```
 
 ## Contributing
