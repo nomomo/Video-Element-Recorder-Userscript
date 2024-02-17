@@ -52,6 +52,11 @@ or
 ffmpeg -y -i %inputFileName%.webm -analyzeduration 2147483647 -probesize 2147483647 -c:v copy -start_at_zero -copyts %outputFileName%.mp4
 ```
 
+## To-Do
+
+- Post-processing with ffmpeg.wasm
+- Record a certain amount of video clip even before clicking the record button(time shifting)
+
 ## Contributing
 
 Contributions are welcome! If you have ideas for improvements or additional features, please fork this repository and submit a pull request.
