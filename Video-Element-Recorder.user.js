@@ -15,6 +15,7 @@
 // @match        https://*.twitcasting.tv/*
 // @supportURL   https://github.com/nomomo/Video-Element-Recorder-Userscript/issues
 // @homepage     https://github.com/nomomo/Video-Element-Recorder-Userscript/
+// @icon         https://raw.githubusercontent.com/nomomo/Video-Element-Recorder-Userscript/main/icon.webp
 // @downloadURL  https://github.com/nomomo/Video-Element-Recorder-Userscript/raw/main/Video-Element-Recorder.user.js
 // @updateURL    https://github.com/nomomo/Video-Element-Recorder-Userscript/raw/main/Video-Element-Recorder.user.js
 // @grant        GM_addStyle
