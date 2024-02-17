@@ -46,6 +46,12 @@ A video with a long recording time was not playing properly. If you use ffmpeg t
 ffmpeg -y -i %inputFileName%.webm -analyzeduration 2147483647 -probesize 2147483647 -c:v copy -c:a copy -start_at_zero -copyts %outputFileName%.mp4
 ```
 
+or
+
+```bat
+ffmpeg -y -i %inputFileName%.webm -analyzeduration 2147483647 -probesize 2147483647 -start_at_zero -copyts %outputFileName%.mp4
+```
+
 ## Contributing
 
 Contributions are welcome! If you have ideas for improvements or additional features, please fork this repository and submit a pull request.
