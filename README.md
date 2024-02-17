@@ -14,7 +14,7 @@ The script was developed as a learning project to delve into the intricacies of 
 
 - **User-Friendly:** Incorporates a simple floating button to initiate and conclude recordings.
 - **Configurable Limits:** Allows users to set maximum file sizes and video lengths through easy browser prompts.
-- **Wide Range Support:** Compatible with numerous websites, including but not limited to YouTube, Twitch, and Facebook.
+- **Wide Range Support:** Compatible with numerous websites, including but not limited to Chzzk, Hakuna.live and Youtube.
 
 ## Installation
 
